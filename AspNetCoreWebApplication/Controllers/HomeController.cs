@@ -12,7 +12,7 @@ namespace AspNetCoreWebApplication.Controllers
         public IActionResult Index()
         {
             ViewData["Message"] = "You just created a ASP.Net Core web application!";
-            return View();
+            return View()1;
         }
 
         public IActionResult Error()
